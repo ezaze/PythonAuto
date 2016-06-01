@@ -1,8 +1,9 @@
 #!/opt/python3/bin/python3
 # 1. 从/bind/zone/ 里自动抓取数据，对获得的A、NS、CNAME记录重新整理排序。 （完成）
 # 2. 生成 .md 文件的表单，并自动更新到Ranote平台。（完成）
-# 2. 根据Serial判断更新，并进行信息同步。
-# 3. 自动匹配申请人信息、申请时间和备注至Ranote平台。
+# 3. 根据Serial判断更新，并进行信息同步。
+# 4. 自动匹配申请人信息、申请时间和备注至Ranote平台。
+# <font color=red>内容</font> 也可以改变MD的颜色
 
 
 import os
